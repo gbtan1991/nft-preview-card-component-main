@@ -1,0 +1,22 @@
+:root{
+
+    /* PRIMARY COLORS */
+
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    /* NEUTRAL COLORS */
+
+    --very-dark-blue1 : hsl(217, 54%, 11%);
+    --very-dark-blue2 : hsl(216, 50%, 16%);
+    --very-dark-blue3 : hsl(215, 32%, 27%);
+    --white : hsl(0, 0%, 100%)
+}
+
+html, body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

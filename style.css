@@ -1,0 +1,45 @@
+@import url(./reset.css);
+@import url(./config.css);
+
+
+body{
+    background-color: var(--very-dark-blue1);
+    color: var(--white);
+    
+}
+
+.hero{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+
+
+}
+
+.hero-outline{
+    background-color: var(--very-dark-blue3);
+    width: 20.375rem;
+    height: 33.875rem;
+    
+
+}
+
+.hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 20px;
+    
+}
+
+
+.hero-img{
+    
+    width: 278px;
+    height: 278px;
+    border-radius: 15px;
+}
+
+
