@@ -8,38 +8,17 @@ body{
     
 }
 
+
 .hero{
     display: grid;
     place-content: center;
-    min-height: 100vh;
-
-
-}
-
-.hero-outline{
-    background-color: var(--very-dark-blue3);
-    width: 20.375rem;
-    height: 33.875rem;
-    
-
-}
-
-.hero-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    gap: 20px;
+    max-height: 100vh;
     
 }
 
-
-.hero-img{
-    
-    width: 278px;
-    height: 278px;
-    border-radius: 15px;
+.hero-container{
+    width: 320px;
+    background-color: var(--very-dark-blue2);
+    padding: 20px;
+    margin: 20px;
 }
-
-
