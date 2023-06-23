@@ -1,0 +1,27 @@
+    /* COLORS */
+    $soft-blue: hsl(215, 51%, 70%);
+    $cyan: hsl(178, 100%, 50%);
+
+    $main-bg: hsl(217, 54%, 11%);
+    $card-bg: hsl(216, 50%, 16%);
+    $line: hsl(215, 32%, 27%);
+    $white: hsl(0, 0%, 100%);
+
+    $shadow: hsl(217, 55%, 10%);
+
+p, h1, h2, h3, h4, h5, h6{
+    font-family: 'Outfit', sans-serif;
+}
+
+
+p{
+    font-size: 18px;
+}
+
+
+.place-content-center{
+    display: grid;
+    place-content: center;
+}
+
+

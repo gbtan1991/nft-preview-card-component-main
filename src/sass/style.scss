@@ -1,0 +1,186 @@
+@import 'reset';
+@import 'config';
+
+
+body{
+   background-color: $main-bg;
+   color: $white;
+
+   width: 100vw;
+   height: 100vh;
+}
+
+.card{
+    background-color: $card-bg;
+    border-radius: 12px;
+    height: 540px;
+    width: 326px;
+    padding: 24px 26px 0px 26px;
+
+    box-shadow: 10px 50px 40px 10px $shadow;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+ 
+    
+
+    .card-holder{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        position: relative;
+        
+        
+        .card-crypto-picture{
+            background-color: $cyan;
+            border-radius: 12px;
+            position: relative;
+            cursor: pointer;
+
+            &:hover .hover-view{
+                opacity: 1;
+                
+                
+            }
+
+            &:hover .card-image{
+                opacity: 0.5;
+            }           
+            
+            .card-image{
+                border-radius: 9px;
+                position: block;
+                
+               
+
+            }
+          
+
+            .hover-view{
+                
+                position: absolute;
+                top: 40%;
+                left: 41%;
+                opacity: 0;
+                
+            
+                
+                
+                
+            }
+        }
+
+
+     
+        
+        .card-title{
+            font-size: 22px;
+            font-weight: 600;
+            cursor: pointer;
+            
+            &:hover{
+                color: $cyan;
+            }
+
+            
+        }
+    
+        .card-description{
+            font-size: 17px;
+            font-weight: 300;
+            color: $soft-blue;
+        }
+
+   
+    }
+
+    .card-sales{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid $line;
+        padding-bottom: 20px;
+        
+            .currency{
+                display: flex;
+                align-items: center;
+                color: $cyan;
+                gap: 8px;
+                display:flex;
+
+                img{
+                    height: 20px;
+                }
+                
+                h3{
+                    font-size: 15px;
+
+                    
+                }
+
+            }
+
+            .time{
+                display: flex;
+                align-items: center;
+                color: $soft-blue;
+                gap: 8px;
+                display:flex;
+
+                img{
+                    height: 15px;
+                }
+                
+                h3{
+                    font-size: 15px;
+                    font-weight: 400;
+
+                    
+                }
+
+            }
+
+    }
+
+    .card-creator{
+        margin-top: 5px;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+
+            .creator-image{
+                width: 35px;
+                border: 1px solid $white;
+                border-radius: 50%
+            }
+
+            .creator-name{
+                color: $soft-blue;
+                font-weight: 100;
+                font-size: 16px;
+                cursor: pointer;
+
+                .name{
+                    color: $white;
+
+                    &:hover{
+                        color: $cyan;
+                    }
+                }
+            }
+    }
+}
+
+
+
+
+
+
+
+
+
+
